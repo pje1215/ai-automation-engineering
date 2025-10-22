@@ -33,18 +33,8 @@
 ---
 
 ## 4. 폴더 구조
-product-name-auto-clustering_react/
-├─ auto-classify-web/      # React 프론트엔드
-│  ├─ public/
-│  ├─ src/
-│  ├─ .env                 # API URL (현재 ngrok 주소: 만료됨)
-│  └─ package.json
-├─ backend/                # FastAPI + ML 서버
-│  ├─ app/
-│  ├─ requirements.txt
-│  └─ run_server.py
-├─ fake_sample.xlsx        # 시연용 가짜 데이터 (민감정보 제거)
-└─ README.md
+
+폴더구조.txt 참고
 
 > `auto-classify-web/.env`는 ngrok 테스트 당시 주소가 남아 있으나 현재 만료됨.  
 > 로컬 테스트 시 `REACT_APP_API_URL=http://localhost:8000` 로 설정 후 프런트 재시작 필요.
