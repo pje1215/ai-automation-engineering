@@ -40,15 +40,16 @@
 > 로컬 테스트 시 `REACT_APP_API_URL=http://localhost:8000` 로 설정 후 프런트 재시작 필요.
 
 ## 5. 실행 방법 (로컬 기준)
-- Backend
+#### Backend (FastAPI + ML 모델)
+```bash
 cd backend
 pip install -r requirements.txt
 python run_server.py
 
-- Frontend
-cd auto-classify-web
-npm install
-npm start
+#### Frontend (React + Axios)
+- cd auto-classify-web
+- npm install
+- npm start
 
 ## 6. 개발 과정
 
