@@ -16,3 +16,5 @@ react_project/
  │   └─ __pycache__/        ← 자동 생성 캐시파일 → 삭제해도 되고 .gitignore로 제외
  │
  └─ README.md               ← 프로젝트 개요 및 설명 문서 (포폴 핵심, 직접 체계적으로 쓸 예정)
+ └─ fake_sample.xlxs          ← 예시로 사용할 실제와 비슷하게 구성된 fake 데이터
+ └─ 폴더구조.txt                ← 폴더 구조 설명 텍스트 파일
