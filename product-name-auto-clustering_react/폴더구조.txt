@@ -1,0 +1,19 @@
+react_project/
+ ├─ auto-classify-web/      ← ✅ 프론트엔드 (React, Firebase로 실제 배포 실험했던 프로젝트)
+ │   ├─ public/             ← HTML 템플릿, favicon 등
+ │   ├─ src/                ← 🔥 핵심 Frontend React 코드 (UI + input form + API 요청)
+ │   ├─ .env                ← FastAPI 서버 주소 (현재 ngrok 주소) → 만료 예정 / README에 명시
+ │   ├─ package.json        ← React 앱 의존성 정보
+ │   ├─ node_modules/       ← npm install로 자동 생성 → GitHub엔 업로드 X (.gitignore로 제외)
+ │   ├─ build/              ← ⭐ 삭제 완료 (Firebase 빌드 산출물)
+ │   ├─ firebase.json       ← Firebase 배포 설정 파일
+ │   ├─ .firebaserc         ← Firebase 프로젝트 연결 정보
+ │   └─ .gitignore          ← node_modules, build 등 자동 제외 설정
+ │
+ ├─ backend/                ← ✅ FastAPI + ML 모델 실제 inference 서버
+ │   ├─ app/                ← FastAPI 라우트 + ML 모델 로직
+ │   ├─ run_server.py       ← `uvicorn` 실행용 스크립트 (FastAPI 서버 실행 진입점)
+ │   ├─ requirements.txt    ← pip 라이브러리 목록 (FastAPI, pandas, sentence-transformers 등)
+ │   └─ __pycache__/        ← 자동 생성 캐시파일 → 삭제해도 되고 .gitignore로 제외
+ │
+ └─ README.md               ← 🔥 프로젝트 개요 및 설명 문서 (포폴 핵심, 직접 체계적으로 쓸 예정)
